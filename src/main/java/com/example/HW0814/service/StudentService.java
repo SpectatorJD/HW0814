@@ -1,0 +1,16 @@
+package com.example.HW0814.service;
+
+import com.example.HW0814.model.Student;
+
+import java.util.Collection;
+
+public interface StudentService {
+    Student addStudent (Student student);
+    Student findStudent (long id);
+
+    Collection<Student> getByAge(Integer min, Integer max);
+
+    Student editStudent (long id, Student student);
+    void deleteStudent (long id);
+
+}
