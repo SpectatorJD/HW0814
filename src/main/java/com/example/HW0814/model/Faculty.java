@@ -10,7 +10,7 @@ import java.util.Set;
 public class Faculty {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
     private String color;
     private String name;
     public Faculty(){
